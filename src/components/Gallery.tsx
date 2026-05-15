@@ -15,14 +15,15 @@ export default function Gallery() {
           className="lg:col-span-6 overflow-hidden md:px-8 lg:px-0"
         >
           <div className="relative overflow-hidden aspect-[3/4] md:aspect-[4/5]">
-            <img 
-              src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?auto=format&fit=crop&w=1000&q=80" 
-              alt="Hair as Sculpture" 
+             <img 
+              src="/client-1.jpg" 
+              alt="Happy Client" 
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover grayscale"
+              className="w-full h-full object-cover grayscale opacity-90"
             />
           </div>
-          <p className="mt-8 text-[9px] md:text-[10px] font-sans font-medium tracking-[0.3em] text-muted uppercase">The Sculpture</p>
+          <p className="mt-8 text-[12px] md:text-[14px] font-serif font-medium tracking-wide text-contrast capitalize">A Happy Client</p>
+          <p className="mt-2 text-[9px] md:text-[10px] font-sans tracking-[0.3em] text-muted uppercase">Signature Transformation</p>
         </motion.div>
 
         {/* Text block & Image 2 */}
@@ -33,23 +34,24 @@ export default function Gallery() {
           transition={{ duration: 1.6, ease: [0.2, 0.0, 0.2, 1], delay: 0.2 }}
           className="lg:col-span-6 flex flex-col justify-center lg:mt-48"
         >
-           <h3 className="text-4xl lg:text-5xl xl:text-6xl font-serif text-contrast mb-10 tracking-tight text-pretty uppercase">The Signature Manifesto.</h3>
-           <p className="text-contrast font-sans font-medium leading-[1.8] mb-8 text-[11px] md:text-[12px] uppercase tracking-[0.1em] max-w-lg">
+           <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif text-contrast mb-12 tracking-tight text-pretty uppercase">The Signature Manifesto.</h3>
+           <p className="text-contrast font-sans font-medium leading-[1.8] mb-10 text-[11px] md:text-[12px] uppercase tracking-[0.1em] max-w-lg">
             A great haircut is not just a style. It is a sculpture. Whether long, short, or medium, its purpose is to frame your features with intention and never to mask them.
            </p>
-           <p className="text-contrast font-sans font-medium leading-[1.8] mb-20 text-[11px] md:text-[12px] uppercase tracking-[0.1em] max-w-lg">
+           <p className="text-contrast font-sans font-medium leading-[1.8] mb-24 text-[11px] md:text-[12px] uppercase tracking-[0.1em] max-w-lg">
             True glamour is not about chasing the latest trend. It is about timeless elegance — an elegance that reveals who you are rather than disguises you.
            </p>
 
           <div className="w-full xl:w-5/6 relative overflow-hidden aspect-square md:aspect-[4/3]">
             <img 
-              src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1200&q=80" 
-              alt="Energy and Motion" 
+              src="/client-2.jpg" 
+              alt="Happy Client" 
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover grayscale opacity-90"
             />
           </div>
-          <p className="mt-8 text-[9px] md:text-[10px] font-sans font-medium tracking-[0.3em] text-muted uppercase">Energy in Motion</p>
+          <p className="mt-8 text-[12px] md:text-[14px] font-serif font-medium tracking-wide text-contrast capitalize">A Happy Client</p>
+          <p className="mt-2 text-[9px] md:text-[10px] font-sans tracking-[0.3em] text-muted uppercase">Signature Elegance</p>
         </motion.div>
 
       </div>

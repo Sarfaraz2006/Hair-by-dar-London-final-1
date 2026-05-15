@@ -17,13 +17,13 @@ export default function Hero({ onBookAppointment }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, ease: [0.2, 0.0, 0.2, 1], delay: 0.8 }}
-            className="w-full relative aspect-[4/3] md:aspect-[21/9] bg-surface overflow-hidden mb-16 md:mb-24"
+            className="w-full relative aspect-[4/5] md:aspect-[16/7] lg:aspect-[21/9] bg-surface overflow-hidden mb-16 md:mb-24"
           >
             <img 
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=2000&q=80" 
-              alt="Dar London Luxury Salon" 
+              src="/dar-hero.png" 
+              alt="Dar - Personal World" 
               referrerPolicy="no-referrer"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[50%_20%]"
             />
           </motion.div>
 
@@ -34,7 +34,7 @@ export default function Hero({ onBookAppointment }: HeroProps) {
               transition={{ duration: 1.5, ease: [0.2, 0.0, 0.2, 1], delay: 1 }}
               className="flex flex-col w-full xl:w-3/5"
             >
-              <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif tracking-tight leading-[1.05] text-contrast uppercase">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif tracking-tight leading-[1.05] text-contrast uppercase">
                 A Signature<br />
                 <span className="text-muted">in Transformation.</span>
               </h1>
