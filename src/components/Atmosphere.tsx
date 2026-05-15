@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import client4Image from '../assets/images/client-4.jpg';
 import ImagePlaceholder from './ImagePlaceholder';
 
 export default function Atmosphere() {
@@ -32,7 +31,7 @@ export default function Atmosphere() {
           className="w-full lg:w-7/12 order-1 lg:order-2 overflow-hidden aspect-[2/3] md:aspect-auto lg:aspect-[2/3] relative flex items-center justify-center"
         >
           <img 
-            src={client4Image} 
+            src="/client-4.jpg" 
             alt="Personal Artistry" 
             referrerPolicy="no-referrer"
             className="w-full h-auto object-contain grayscale opacity-90"
