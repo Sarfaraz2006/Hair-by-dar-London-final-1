@@ -1,5 +1,8 @@
 import { motion } from 'motion/react';
 import { Instagram, ArrowRight } from 'lucide-react';
+import ig4Image from '../assets/images/ig-4.jpg';
+import ig1Image from '../assets/images/ig-1.jpg';
+import ig2Image from '../assets/images/ig-2.jpg';
 
 export default function InstagramFeed() {
   return (
@@ -30,7 +33,7 @@ export default function InstagramFeed() {
             transition={{ duration: 1.5, ease: [0.2, 0.0, 0.2, 1] }}
             className="group relative w-full md:w-[45%] lg:w-[40%] aspect-[9/16] overflow-hidden block rounded-sm"
           >
-             <img src="/ig-4.jpg" alt="Instagram Story" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
+             <img src={ig4Image} alt="Instagram Story" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
              <div className="absolute inset-0 bg-contrast/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
              <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity duration-700 -translate-y-4 group-hover:translate-y-0">
                <Instagram className="w-6 h-6 text-base" strokeWidth={1.5} />
@@ -66,7 +69,7 @@ export default function InstagramFeed() {
                  transition={{ duration: 1.2, delay: 0.4 }}
                  className="group relative w-1/2 md:w-5/12 aspect-square overflow-hidden block rounded-sm"
                >
-                 <img src="/ig-1.jpg" alt="Instagram Post" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
+                 <img src={ig1Image} alt="Instagram Post" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
                  <div className="absolute inset-0 bg-contrast/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
                </motion.a>
 
@@ -78,7 +81,7 @@ export default function InstagramFeed() {
                  transition={{ duration: 1.2, delay: 0.6 }}
                  className="group relative w-5/12 md:w-1/3 aspect-[9/16] overflow-hidden block lg:mb-16 rounded-sm"
                >
-                 <img src="/ig-2.jpg" alt="Instagram Post" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
+                 <img src={ig2Image} alt="Instagram Post" className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:scale-105 group-hover:grayscale-0" referrerPolicy="no-referrer" />
                  <div className="absolute inset-0 bg-contrast/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
                </motion.a>
                
