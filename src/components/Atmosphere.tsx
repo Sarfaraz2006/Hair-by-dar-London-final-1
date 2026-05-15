@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import ImagePlaceholder from './ImagePlaceholder';
-import client4 from '../assets/images/client-4.png';
 
 export default function Atmosphere() {
   return (
@@ -29,13 +28,13 @@ export default function Atmosphere() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-10%" }}
           transition={{ duration: 1.8, ease: [0.2, 0.0, 0.2, 1] }}
-          className="w-full lg:w-7/12 order-1 lg:order-2 overflow-hidden aspect-[4/5] md:aspect-[16/10] lg:aspect-[4/5] relative"
+          className="w-full lg:w-7/12 order-1 lg:order-2 overflow-hidden aspect-[2/3] md:aspect-auto lg:aspect-[2/3] relative flex items-center justify-center"
         >
           <img 
-            src={client4} 
+            src="/client-4.jpg" 
             alt="Personal Artistry" 
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover grayscale opacity-90"
+            className="w-full h-auto object-contain grayscale opacity-90"
           />
         </motion.div>
 
