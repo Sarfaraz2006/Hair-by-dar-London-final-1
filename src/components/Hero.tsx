@@ -1,4 +1,4 @@
-import { heroImageBase64 } from '../assets/heroImageData';
+import heroImg from '../assets/images/hero-new-override.png';
 import { motion } from 'motion/react';
 
 import { ArrowRight } from 'lucide-react';
@@ -22,7 +22,7 @@ export default function Hero({ onBookAppointment }: HeroProps) {
             className="w-full relative aspect-[4/5] md:aspect-[16/7] lg:aspect-[21/9] bg-surface overflow-hidden mb-16 md:mb-24"
           >
             <img 
-              src={heroImageBase64} 
+              src={heroImg} 
               alt="Dar - Personal World"
               className="w-full h-full object-cover object-[50%_20%]"
             />
