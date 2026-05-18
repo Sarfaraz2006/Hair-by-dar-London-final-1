@@ -1,5 +1,6 @@
-import heroImg from '../assets/images/dar-hero.png';
+
 import { motion } from 'motion/react';
+import heroImg from '../assets/images/dar-hero.png';
 
 import { ArrowRight } from 'lucide-react';
 import ImagePlaceholder from './ImagePlaceholder';

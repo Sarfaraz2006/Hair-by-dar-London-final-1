@@ -1,4 +1,4 @@
-import client4Img from '../assets/images/client-4.png';
+
 import { motion } from 'motion/react';
 import ImagePlaceholder from './ImagePlaceholder';
 
@@ -32,7 +32,7 @@ export default function Atmosphere() {
           className="w-full lg:w-7/12 order-1 lg:order-2 overflow-hidden aspect-[2/3] md:aspect-auto lg:aspect-[2/3] relative flex items-center justify-center"
         >
           <img 
-            src={client4Img} 
+            src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=800&q=80" 
             alt="Personal Artistry"
             className="w-full h-auto object-contain grayscale opacity-90"
           />

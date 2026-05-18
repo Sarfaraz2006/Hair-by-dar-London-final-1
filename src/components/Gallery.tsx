@@ -1,5 +1,5 @@
-import client1Img from '../assets/images/client-1.png';
-import client2Img from '../assets/images/client-2.png';
+
+
 import { motion } from 'motion/react';
 import ImagePlaceholder from './ImagePlaceholder';
 
@@ -18,7 +18,7 @@ export default function Gallery() {
         >
           <div className="relative overflow-hidden aspect-[3/4] md:aspect-[4/5]">
              <img 
-              src={client1Img} 
+              src="https://images.unsplash.com/photo-1544168190-79c15427015f?w=800&q=80" 
               alt="Happy Client"
               className="w-full h-full object-cover grayscale opacity-90"
             />
@@ -45,7 +45,7 @@ export default function Gallery() {
 
           <div className="w-full xl:w-5/6 relative overflow-hidden aspect-square md:aspect-[4/3]">
             <img 
-              src={client2Img} 
+              src="https://images.unsplash.com/photo-1559582798-278df28e2532?w=800&q=80" 
               alt="Happy Client"
               className="w-full h-full object-cover grayscale opacity-90"
             />
