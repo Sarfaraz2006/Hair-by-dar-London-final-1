@@ -1,6 +1,5 @@
 
 import { motion } from 'motion/react';
-import heroImg from '../assets/images/dar-hero.png';
 
 import { ArrowRight } from 'lucide-react';
 import ImagePlaceholder from './ImagePlaceholder';
@@ -23,7 +22,7 @@ export default function Hero({ onBookAppointment }: HeroProps) {
             className="w-full relative aspect-[4/5] md:aspect-[16/7] lg:aspect-[21/9] bg-surface overflow-hidden mb-16 md:mb-24"
           >
             <img 
-              src={heroImg} 
+              src="https://i.postimg.cc/JzjPkM6w/file-000000002f6871faa89d6b478e9296aa.png" 
               alt="Dar - Personal World"
               className="w-full h-full object-cover object-[50%_20%]"
             />
