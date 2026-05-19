@@ -32,7 +32,7 @@ export default function Atmosphere() {
           className="w-full lg:w-7/12 order-1 lg:order-2 overflow-hidden aspect-[2/3] md:aspect-auto lg:aspect-[2/3] relative flex items-center justify-center"
         >
           <img 
-            src="/client-4.png" 
+            src="https://i.postimg.cc/N0Yb8SSp/file-00000000c57872088e0336dfae078fd6.png" 
             alt="Personal Artistry"
             className="w-full h-auto object-contain grayscale opacity-90"
           />

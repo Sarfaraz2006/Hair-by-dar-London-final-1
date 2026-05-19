@@ -18,7 +18,7 @@ export default function Gallery() {
         >
           <div className="relative overflow-hidden aspect-[3/4] md:aspect-[4/5]">
              <img 
-              src="/client-1.png" 
+              src="https://i.postimg.cc/pdxkQ44Q/file-00000000cc4871fa822c5b8b372951c2.png" 
               alt="Happy Client"
               className="w-full h-full object-cover grayscale opacity-90"
             />
@@ -45,7 +45,7 @@ export default function Gallery() {
 
           <div className="w-full xl:w-5/6 relative overflow-hidden aspect-square md:aspect-[4/3]">
             <img 
-              src="/client-2.png" 
+              src="https://i.postimg.cc/xdYgGhh3/file-000000008ac87207911882e48c2fad5c.png" 
               alt="Happy Client"
               className="w-full h-full object-cover grayscale opacity-90"
             />
